@@ -18,10 +18,10 @@ public class AdditionOfArrayElement {
 		System.out.print("Print array Element:- ");
 		for(int i=0;i<a.length;i++)
 		{
-			System.out.print(a[i]+" ");
+			System.out.print(a[i]+" "); 
 			sum=a[i]+sum;
 		}
-		System.out.print("\nAddition of all array elements:-"+sum);
+		System.out.print("\n Github Addition of all array elements:-"+sum);
 
 	}
 
