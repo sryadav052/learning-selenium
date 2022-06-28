@@ -1,0 +1,14 @@
+package Basic;
+
+public class ImplicitAndexplicit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10;// 4bytes
+		double b=a;// 8bytes 
+		// Here compiler easly convert the data type from int to double 
+		System.out.println(b);
+
+	}
+
+}

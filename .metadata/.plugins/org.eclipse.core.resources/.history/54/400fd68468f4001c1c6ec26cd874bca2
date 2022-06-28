@@ -1,0 +1,27 @@
+package Basic;
+
+import java.util.Scanner;
+
+// Calculator programme
+// take two value n1 and n2 from users and 
+
+public class CalculatorProgramm {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int n1,n2,choice=1;
+		int cal;
+		System.out.print("Enter any two number:- ");
+		Scanner scn=new Scanner(System.in);
+		n1=scn.nextInt();
+		n2=scn.nextInt();
+		
+		if(choice==1) {
+			cal=n1+n2;
+			System.out.print("Addition Operation "+cal);
+		}
+		
+
+	}
+
+}

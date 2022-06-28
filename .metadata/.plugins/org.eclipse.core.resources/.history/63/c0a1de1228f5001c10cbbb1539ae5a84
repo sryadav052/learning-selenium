@@ -1,0 +1,10 @@
+package PracticeQuestion;
+
+public class printWeekDaysAftertakingIntegerfromUsers {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

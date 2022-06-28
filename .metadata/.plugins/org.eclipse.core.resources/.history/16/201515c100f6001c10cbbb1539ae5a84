@@ -1,0 +1,23 @@
+package Array;
+
+public class bigg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int max,number,NumberLessThan50=0;
+		int a[]= {10,20,90,43,49,50,48,54,78};	
+		number=a[0];
+		for(int i=0;i<a.length;i++)
+		{
+			if(number<50)
+			{
+				 NumberLessThan50=number;
+			}
+		}
+		System.out.println("NumberSlightlyLessThan50is:- "+NumberLessThan50);
+		
+		
+
+	}
+
+}

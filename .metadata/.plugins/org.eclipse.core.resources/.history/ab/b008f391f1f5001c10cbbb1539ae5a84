@@ -1,0 +1,33 @@
+package Array;
+
+public class bigg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int min;
+		int a[]= {10,20,43,49,50,48,54,78};		
+		min=a[0];
+		
+		int Numberlessthan50=0;
+		for(int i=1;i<a.length;i++)
+		{
+			if(a[i]<min)
+			{
+				min=a[i];
+			}
+		}
+		System.out.println(+min);
+		a[1]=50;
+		for(int i=0;i<a.length;i++)
+		{
+			if(a[i]<50) //
+			{
+				 Numberlessthan50=a[i];
+			}
+		}
+		System.out.println(+Numberlessthan50);
+
+
+	}
+
+}

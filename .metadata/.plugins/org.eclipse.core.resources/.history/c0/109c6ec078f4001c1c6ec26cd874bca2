@@ -1,0 +1,11 @@
+package Basic1;
+
+public class learningException {
+	public static void main(String Args[]) {
+		try {
+		System.out.println(20/0);
+		}catch(Exception ex) {
+			System.out.println(ex);
+		}
+	}
+}

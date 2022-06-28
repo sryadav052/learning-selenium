@@ -1,0 +1,28 @@
+package Array;
+
+public class bigg {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int max = 0,number,NumberLessThan50=0;
+		int a[]= {10,20,90,43,49,50,48,54,78};	
+		int a1[]=new int[a.length];
+		number=50;
+		for(int i=0;i<a.length;i++)
+		{			
+			if(a[i]<number)
+			{
+				a1[i] = a[i];
+
+			}
+			
+		}
+		
+		for(int i=0;i<a.length;i++)
+		{		
+			System.out.print(a1[i] + " ");
+		}
+
+	}
+
+}

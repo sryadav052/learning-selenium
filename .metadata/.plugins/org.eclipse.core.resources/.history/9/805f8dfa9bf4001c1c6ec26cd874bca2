@@ -1,0 +1,10 @@
+package Basic1;
+
+public class SquarerootOfAnyNumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
