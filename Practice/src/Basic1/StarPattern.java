@@ -12,6 +12,7 @@ public class StarPattern {
 				System.out.print("*");
 			}
 				System.out.print("\n");
+				System.out.print("");
 		}
 
 	}
